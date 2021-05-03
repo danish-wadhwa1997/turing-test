@@ -1,0 +1,13 @@
+.company-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-border {
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  margin-bottom: 10px;
+}

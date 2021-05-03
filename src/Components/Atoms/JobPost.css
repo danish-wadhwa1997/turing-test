@@ -1,0 +1,42 @@
+.job-post {
+  border-left: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.job-post:first-child {
+  border-left: none;
+}
+
+.text {
+  color: black;
+  opacity: 60%;
+}
+
+.position-name {
+  color: #007bff;
+}
+
+.job-button {
+  position: absolute;
+  bottom: 1vw;
+  right: 3vw;
+  box-shadow: 0px 0px 8px #007bff;
+}
+
+@media screen and (max-width: 575px) {
+  .job-post {
+    border-left: none;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 576px) {
+  .job-post:nth-child(even) {
+    border-left: 1px solid rgba(0, 0, 0, 0.4);
+    margin-top: 2vw;
+  }
+  .job-post:nth-child(odd) {
+    border-left: none;
+    margin-top: 2vw;
+  }
+}

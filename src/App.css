@@ -1,0 +1,26 @@
+.banner-image {
+  background-image: url("./resources/images/Banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  color: white;
+  align-items: center;
+}
+.inverted-button {
+  color: #007bff !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.inverted-button:hover {
+  color: #0062cc !important;
+}
+
+.featured-companies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-around;
+}
